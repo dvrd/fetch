@@ -1231,10 +1231,8 @@ M_Option :: enum {
 }
 
 
-when ODIN_OS == .Linux {
-	foreign import libcurl "/usr/lib/libcurl.so"
-} else when ODIN_OS == .Darwin {
-	foreign import libcurl "system:System.framework"
+when ODIN_OS == .Linux || ODIN_OS == .Darwin {
+	foreign import libcurl "system:curl"
 }
 
 @(link_prefix = "curl_")
