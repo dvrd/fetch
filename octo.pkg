@@ -1,0 +1,11 @@
+{
+    name: "fetch",
+    owner: "Dan Castrillo<126793278+dvrd@users.noreply.github.com>",
+    version: "0.1.0",
+    description: "",
+    url: "https://github.com/dvrd/fetch",
+    readme: "",
+    license: "",
+    keywords: [],
+    dependencies: {}
+}
